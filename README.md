@@ -40,41 +40,6 @@ jekyll 使用教程：<https://www.jekyll.com.cn/>
 
 配置文件是位于主目录的 `_config.yml`，关于配置的完整参数介绍和默认值等内容，请查阅官网文档：<https://www.jekyll.com.cn/docs/configuration/>
 
-以下是我的网站配置示例，以供参考：
-```yml
-# 以下为自定义的全局变量，可以在 HTML 文件中引用，
-# 比如代码：<h1>{{ site.title }}</h1> 
-# 将会展示为设定的值，也可以自行添加其他自定义全局变量。
-title: 黄琦雲的博客 # 网站的标题
-description: > # 网站的描述，可能会出现在搜索引擎展示结果中
-  基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://shyreckdc.github.io" # 网站地址
-github_repo: shyreckdc/shyreckdc.github.io
-github_profile: "https://github.com/shyreckdc" # GitHub 个人主页
-user: "黄琦雲" # 用于侧栏展示的名字
-user_email: "2386209384@qq.com" # 侧栏展示的联系方式
-paginate: 5 # 主页展示的博客文章数量
-
-# jekyll 相关配置
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - COPYING
-  - vendor
-sass:
-  style: compressed
-future: true
-permalink: /:year/:month/:day/:title
-theme: jekyll-theme-slate
-```
-
 ## 配置开发环境
 
 提交推送代码后，GitHub Pages页面（即博客网站主页）更新较慢，所以推荐搭建本地开发环境，以便调试。
