@@ -2,37 +2,37 @@
     <div align="right">
         简体中文 | <a href="README-EN.md">English</a>
     </div>
-    <h1>knightyun.github.io</h1>
+    <h1>shyreckdc.github.io</h1>
     <p>基于 jekyll 的响应式 Github Pages 个人博客网站</p>
 
-[![license](https://img.shields.io/github/license/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
-[![Gitter](https://img.shields.io/gitter/room/knightyun/knightyun.github.i0)](https://gitter.im/knightyun-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fknightyun.github.io)](https://knightyun.github.io)
-[![GitHub deployments](https://img.shields.io/github/deployments/knightyun/knightyun.github.io/github-pages)](https://github.com/knightyun/knightyun.github.io/deployments)
-![GitHub top language](https://img.shields.io/github/languages/top/knightyun/knightyun.github.io)
+[![license](https://img.shields.io/github/license/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/blob/master/COPYING)
+[![Gitter](https://img.shields.io/gitter/room/shyreckdc/shyreckdc.github.i0)](https://gitter.im/shyreckdc-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fshyreckdc.github.io)](https://shyreckdc.github.io)
+[![GitHub deployments](https://img.shields.io/github/deployments/shyreckdc/shyreckdc.github.io/github-pages)](https://github.com/shyreckdc/shyreckdc.github.io/deployments)
+![GitHub top language](https://img.shields.io/github/languages/top/shyreckdc/shyreckdc.github.io)
 
-![GitHub stars](https://img.shields.io/github/stars/knightyun/knightyun.github.io?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/knightyun/knightyun.github.io?style=flat)
-![GitHub followers](https://img.shields.io/github/followers/knightyun?style=flat)
-[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/knightyun/knightyun.github.io/issues)
-[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/knightyun/knightyun.github.io/pulls)
+![GitHub stars](https://img.shields.io/github/stars/shyreckdc/shyreckdc.github.io?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/shyreckdc/shyreckdc.github.io?style=flat)
+![GitHub followers](https://img.shields.io/github/followers/shyreckdc?style=flat)
+[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/shyreckdc/shyreckdc.github.io/issues)
+[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/shyreckdc/shyreckdc.github.io/pulls)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/commit/master)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/graphs/commit-activity)
-![GitHub repo size](https://img.shields.io/github/repo-size/knightyun/knightyun.github.io)
+[![GitHub last commit](https://img.shields.io/github/last-commit/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/commit/master)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/graphs/commit-activity)
+![GitHub repo size](https://img.shields.io/github/repo-size/shyreckdc/shyreckdc.github.io)
 </div>
 
 ## 特性
 
-- 适配移动端与桌面端展示效果 | [预览](https://knightyun.github.io)
-- 个性化自动展示 GitHub 项目 | [预览](https://knightyun.github.io/projects)
-- 文章按类别与标签归档展示 | [预览](https://knightyun.github.io/categories)
-- 支持搜索框，按关键词搜索全站文章 | [预览](https://knightyun.github.io)
-- 生动的 “关于” 页面 | [预览](https://knightyun.github.io/about)
+- 适配移动端与桌面端展示效果 | [预览](https://shyreckdc.github.io)
+- 个性化自动展示 GitHub 项目 | [预览](https://shyreckdc.github.io/projects)
+- 文章按类别与标签归档展示 | [预览](https://shyreckdc.github.io/categories)
+- 支持搜索框，按关键词搜索全站文章 | [预览](https://shyreckdc.github.io)
+- 生动的 “关于” 页面 | [预览](https://shyreckdc.github.io/about)
 
 ## 使用
 
-详细搭建教程：[搭建 Github Pages 个人博客网站](https://knightyun.github.io/2018/04/01/github-pages-blog)
+详细搭建教程：[搭建 Github Pages 个人博客网站](https://shyreckdc.github.io/2018/04/01/github-pages-blog)
 
 jekyll 使用教程：<https://www.jekyll.com.cn/>
 
@@ -48,9 +48,9 @@ jekyll 使用教程：<https://www.jekyll.com.cn/>
 title: 黄琦雲的博客 # 网站的标题
 description: > # 网站的描述，可能会出现在搜索引擎展示结果中
   基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://knightyun.github.io" # 网站地址
-github_repo: knightyun/knightyun.github.io
-github_profile: "https://github.com/knightyun" # GitHub 个人主页
+url: "https://shyreckdc.github.io" # 网站地址
+github_repo: shyreckdc/shyreckdc.github.io
+github_profile: "https://github.com/shyreckdc" # GitHub 个人主页
 user: "黄琦雲" # 用于侧栏展示的名字
 user_email: "2386209384@qq.com" # 侧栏展示的联系方式
 paginate: 5 # 主页展示的博客文章数量
@@ -79,7 +79,7 @@ theme: jekyll-theme-slate
 
 提交推送代码后，GitHub Pages页面（即博客网站主页）更新较慢，所以推荐搭建本地开发环境，以便调试。
 
-详细教程请见：[安装 jekyll](https://knightyun.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
+详细教程请见：[安装 jekyll](https://shyreckdc.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
 
 配置好依赖后在项目主目录运行：
 ```cmd
@@ -100,4 +100,4 @@ bundle exec jekyll s
 
 ## License
 
-[GPL v3](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
+[GPL v3](https://github.com/shyreckdc/shyreckdc.github.io/blob/master/COPYING)

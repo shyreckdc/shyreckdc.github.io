@@ -2,37 +2,37 @@
     <div align="right">
         <a href="README.md">简体中文</a> | English
     </div>
-    <h1>knightyun.github.io</h1>
+    <h1>shyreckdc.github.io</h1>
     <p>A responsive personal blog website based on jekyll.</p>
 
-[![license](https://img.shields.io/github/license/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
-[![Gitter](https://img.shields.io/gitter/room/knightyun/knightyun.github.i0)](https://gitter.im/knightyun-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fknightyun.github.io)](https://knightyun.github.io)
-[![GitHub deployments](https://img.shields.io/github/deployments/knightyun/knightyun.github.io/github-pages)](https://github.com/knightyun/knightyun.github.io/deployments)
-![GitHub top language](https://img.shields.io/github/languages/top/knightyun/knightyun.github.io)
+[![license](https://img.shields.io/github/license/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/blob/master/COPYING)
+[![Gitter](https://img.shields.io/gitter/room/shyreckdc/shyreckdc.github.i0)](https://gitter.im/shyreckdc-github-io/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Website](https://img.shields.io/website?down_color=lightgrey%09&down_message=offline&up_color=%09aqua&up_message=online&url=https%3A%2F%2Fshyreckdc.github.io)](https://shyreckdc.github.io)
+[![GitHub deployments](https://img.shields.io/github/deployments/shyreckdc/shyreckdc.github.io/github-pages)](https://github.com/shyreckdc/shyreckdc.github.io/deployments)
+![GitHub top language](https://img.shields.io/github/languages/top/shyreckdc/shyreckdc.github.io)
 
-![GitHub stars](https://img.shields.io/github/stars/knightyun/knightyun.github.io?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/knightyun/knightyun.github.io?style=flat)
-![GitHub followers](https://img.shields.io/github/followers/knightyun?style=flat)
-[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/knightyun/knightyun.github.io/issues)
-[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/knightyun/knightyun.github.io/pulls)
+![GitHub stars](https://img.shields.io/github/stars/shyreckdc/shyreckdc.github.io?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/shyreckdc/shyreckdc.github.io?style=flat)
+![GitHub followers](https://img.shields.io/github/followers/shyreckdc?style=flat)
+[![Github issues](https://img.shields.io/badge/issues-welcome-success)](https://github.com/shyreckdc/shyreckdc.github.io/issues)
+[![Github pull request](https://img.shields.io/badge/pull%20request-welcome-success)](https://github.com/shyreckdc/shyreckdc.github.io/pulls)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/commit/master)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/graphs/commit-activity)
-![GitHub repo size](https://img.shields.io/github/repo-size/knightyun/knightyun.github.io)
+[![GitHub last commit](https://img.shields.io/github/last-commit/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/commit/master)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shyreckdc/shyreckdc.github.io)](https://github.com/shyreckdc/shyreckdc.github.io/graphs/commit-activity)
+![GitHub repo size](https://img.shields.io/github/repo-size/shyreckdc/shyreckdc.github.io)
 </div>
 
 ## Features
 
-- Responsive for mobile phone, tablet, desktop | [Preview](https://knightyun.github.io)
-- Show your GitHub repository fantastically | [Preview](https://knightyun.github.io/projects)
-- Archive your articles with categories and tags | [Preview](https://knightyun.github.io/categories)
-- Support search articles with key words | [Preview](https://knightyun.github.io)
-- Customized “About” page | [Preview](https://knightyun.github.io/about)
+- Responsive for mobile phone, tablet, desktop | [Preview](https://shyreckdc.github.io)
+- Show your GitHub repository fantastically | [Preview](https://shyreckdc.github.io/projects)
+- Archive your articles with categories and tags | [Preview](https://shyreckdc.github.io/categories)
+- Support search articles with key words | [Preview](https://shyreckdc.github.io)
+- Customized “About” page | [Preview](https://shyreckdc.github.io/about)
 
 ## Usage
 
-Detailed tutorial：[Build Github Pages blog website](https://knightyun.github.io/2018/04/01/github-pages-blog)
+Detailed tutorial：[Build Github Pages blog website](https://shyreckdc.github.io/2018/04/01/github-pages-blog)
 
 jekyll guide：<https://www.jekyll.com.cn/>
 
@@ -57,16 +57,16 @@ Example config of my website:
 title: 黄琦雲的博客 # title for your website
 description: > # description for your website, useful for search engine exhibition.
   基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://knightyun.github.io" # address of your website.
-github_repo: knightyun/knightyun.github.io
-github_profile: "https://github.com/knightyun" # your GitHub home page.
+url: "https://shyreckdc.github.io" # address of your website.
+github_repo: shyreckdc/shyreckdc.github.io
+github_profile: "https://github.com/shyreckdc" # your GitHub home page.
 user: "黄琦雲" # name in the sidebar
 user_email: "2386209384@qq.com" # contact email in the sidebar
 paginate: 5 # how many articles will show in your website home page.
 
 # configuration related to jekyll
 markdown: kramdown
-repository: knightyun/knightyun.github.io
+repository: shyreckdc/shyreckdc.github.io
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -88,7 +88,7 @@ permalink: /:year/:month/:day/:title
 
 Commit and push your code to the remote repo, you may wait for a long time to see the change of your blog website, so recommend build develop environment in local, convenient for debugging.
 
-Detialed tutorial: [Install jekyll](https://knightyun.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
+Detialed tutorial: [Install jekyll](https://shyreckdc.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
 
 run code bellow in shell after configuring well：
 ```cmd
@@ -109,4 +109,4 @@ Then shell will print a message about open `http://127.0.0.1:4000` in browser to
 
 ## License
 
-[GPL v3](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
+[GPL v3](https://github.com/shyreckdc/shyreckdc.github.io/blob/master/COPYING)
