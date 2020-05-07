@@ -13,10 +13,10 @@
 # 将会展示为设定的值，也可以自行添加其他自定义全局变量。
 title: Shyreckdc的博客 # 网站的标题
 description: > # 网站的描述，可能会出现在搜索引擎展示结果中
-  基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
-url: "https://helloshyreckdc.github.io" # 网站地址
-github_repo: helloshyreckdc/helloshyreckdc.github.io
-github_profile: "https://github.com/helloshyreckdc" # GitHub 个人主页
+  基于 jekyll 的 Github Pages 个人博客网站
+url: "https://shyreckdc.github.io" # 网站地址
+github_repo: shyreckdc/shyreckdc.github.io
+github_profile: "https://github.com/shyreckdc" # GitHub 个人主页
 user: "Shyreckdc" # 用于侧栏展示的名字
 user_email: "1140841800@qq.com" # 侧栏展示的联系方式
 paginate: 5 # 主页展示的博客文章数量
