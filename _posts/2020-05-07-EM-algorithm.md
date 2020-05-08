@@ -32,10 +32,7 @@ L(\boldsymbol{\theta})=\sum_{i=1}^m log(\sum_{\mathbf{z}^{(i)\}\}p(\mathbf{x}^{(
 直接求解比较困难，我们建立一个迭代算法。令$Q_i$是$\mathbf{z}^{(i)}$的某个分布，则$\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})=1$,且$Q_i\geq 0$
 
 \begin{align}
-    L(\boldsymbol{\theta})a) & =\sum_{i=1}^mlog(p(\mathbf{x}^{(i)}|\boldsymbol{\theta}))
-\end{align}
-\begin{align}
-    & = \sum_{i=1}^m log\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}
+   L(\boldsymbol{\theta}) & = \sum_{i=1}^m log\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}
 \end{align}
 \begin{align}
     & = \sum_{i=1}^m logE_\{\{\mathbf{z}^{(i)}\sim Q_i\}\}\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}
@@ -54,13 +51,22 @@ L(\boldsymbol{\theta}) \geq \sum_{i=1}^m E_{\mathbf{z}^{(i)}\sim Q_i}log\frac{p(
 \frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}=c
 \end{align}
 其中，c为常数。如果分母乘到右边，两边对$\mathbf{z}^{(i)}$求和，则有
-$c=\sum_{\mathbf{z}^{(i)\}\}p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})=p(\mathbf{x}^{(i)}|\boldsymbol{\theta})$
-从而有$Q_i(\mathbf{z}^{(i)})=\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}{p(\mathbf{x}^{(i)}|\boldsymbol{\theta})}=p(\mathbf{z}^{(i)}|\mathbf{x}^{(i)},\boldsymbol{\theta})$
+\begin{align}
+c=\sum_{\mathbf{z}^{(i)\}\}p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})=p(\mathbf{x}^{(i)}|\boldsymbol{\theta})
+\end{align}
+从而有
+\begin{align}
+Q_i(\mathbf{z}^{(i)})=\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}{p(\mathbf{x}^{(i)}|\boldsymbol{\theta})}=p(\mathbf{z}^{(i)}|\mathbf{x}^{(i)},\boldsymbol{\theta})
+\end{align}
 其实是个后验分布。上面这个就是E步 \\
 M步如下
-$\boldsymbol{\theta}:=argmax_{\boldsymbol{\theta\}\}\sum_i\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})log\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}$
+\begin{align}
+\boldsymbol{\theta}:=argmax_{\boldsymbol{\theta\}\}\sum_i\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})log\frac{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}\{\{Q_i(\mathbf{z}^{(i)})\}\}
+\end{align}
 由于z是用上一轮的$\theta$计算的，在最大化$\theta$过程中分母中Q(z)不影响新的$\theta的最大化$，因此有时候为了简化定义Q函数
-$Q(\boldsymbol{\theta},\boldsymbol{\theta}^{old})=\sum_i\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})log{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}$
+\begin{align}
+Q(\boldsymbol{\theta},\boldsymbol{\theta}^{old})=\sum_i\sum_{\mathbf{z}^{(i)\}\}Q_i(\mathbf{z}^{(i)})log{p(\mathbf{x}^{(i)},\mathbf{z}^{(i)}|\boldsymbol{\theta})}
+\end{align}
 上升的逻辑如下图所示
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200507180622319.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NoeXJlY2tkYw==,size_16,color_FFFFFF,t_70)
 
